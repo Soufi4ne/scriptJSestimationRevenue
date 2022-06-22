@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacuzizi(lib)</title>
+</head>
+<body>
+
+    <p>Selectionnez vos parametres </p>
+
+<select id="selectionRegion" onchange="fonctionArgent()">
+     <option value="">--Votre région--</option>
+  <option value="IleDeFrance">Ile de France</option>
+  <option value="Bretagne">Bretagne</option>
+  <option value="Normandie">Normandie</option>
+  <option value="Corse">Corse</option>
+</select>
+
+<select id="selectionType" onchange="fonctionArgent()">
+    <option value="">--Type de Jacuzzi--</option>
+ <option value="Domicile">Jacuzzi à domicile</option>
+ <option value="Logement">Logement avec Jacuzzi</option>
+</select>
+
+<select id="selectionPlace" onchange="fonctionArgent()">
+    <option value="">--Nombres de place--</option>
+ <option value="1a2">1 à 2 places</option>
+ <option value="2a4">2 à 4 places</option>
+ <option value="4Plus">4 places et +</option>
+</select>
+
+<input type="submit" value="DONNEZ MOI MON ARGENT">
+
+<p>Voici ce que que vous pourrez gagner :</p>
+
+<p id="estimation"></p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
