@@ -10,6 +10,8 @@ let corse = document.querySelectorAll("Corse")
 console.log(bzh)
 // -------------------------------------
 
+
+
 let fonctionRegion = region.onchange() = function(valeurRegion) {
     valeurRegion=0;
     if (value=='IleDeFrance') {
@@ -47,4 +49,7 @@ let fonctionPlace = place.onchange() = function(valeurPlace) {
     }
     console.log(valeurRegion)
 }
+
+//----------------
+
 
