@@ -37,10 +37,10 @@ function fonctionArgent(event) {
             valeurPlace = 150
         }
     }
-    
+
     console.log(valeurPlace + " + " + valeurType + " + " + valeurRegion);
     globalvalue = valeurPlace + valeurType + valeurRegion;
     console.log(globalvalue);
-    document.querySelector("#estimation").innerHTML = "Vous allez gagner " + globalvalue + "€.";
+    document.querySelector("#estimation").innerHTML = "Jusqu'à " + globalvalue + "€ !";
 
 }
