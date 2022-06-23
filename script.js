@@ -11,36 +11,49 @@ function fonctionArgent(event) {
     type = event.id;
     console.log(event.id);
 
-    if (type == 'selectionRegion') {
-        console.log("modif région");
-        if (value == 'IleDeFrance') {
-            valeurRegion = 300
-        } else if (value == 'Corse') {
-            valeurRegion = 250
-        } else {
-            valeurRegion = 200
+    if (type === 'selectionRegion') {
+        switch (value) {
+            case 'IleDeFrance':
+                valeurRegion = 300
+                break;
+            case 'Corse':
+                valeurRegion = 250
+                break;
+            case 'empty':
+                valeurRegion = 0
+                break;
+            default:
+                valeurRegion = 200 
         }
-    } else if (type == "selectionType") {
+    
+    } 
+    else if (type == "selectionType") {
         console.log("modif type");
         if (value == "Domicile") {
             valeurType = 150
         } else {
             valeurType = 300
         }
-    } else if (type == 'selectionPlace') {
-        console.log("modif place");
-        if (value == '1a2') {
-            valeurPlace = 50
-        } else if (value == '2a4') {
-            valeurPlace = 100
-        } else {
-            valeurPlace = 150
+    } if (type === 'selectionPlace') {
+        switch (value) {
+            case '1a2':
+                valeurPlace = 100
+                break;
+            case '2a4':
+                valeurPlace = 200
+                break;
+            case '4Plus':
+                valeurPlace = 300
+                break;
+            default:
+                valeurPlace = 0
         }
-    }
+    
+    } 
 
     console.log(valeurPlace + " + " + valeurType + " + " + valeurRegion);
     globalvalue = valeurPlace + valeurType + valeurRegion;
     console.log(globalvalue);
-    document.querySelector("#estimation").innerHTML = "Jusqu'à " + `<span style='color: red;'> ${globalvalue}<span/>`  + "€";
+    document.querySelector("#estimation").innerHTML = "Jusqu'à " + `<span style='color: #ec5075;'> ${globalvalue}<span/>`  + "€";
 
 }
