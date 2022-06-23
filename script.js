@@ -41,6 +41,6 @@ function fonctionArgent(event) {
     console.log(valeurPlace + " + " + valeurType + " + " + valeurRegion);
     globalvalue = valeurPlace + valeurType + valeurRegion;
     console.log(globalvalue);
-    document.querySelector("#estimation").innerHTML = "Jusqu'à " + globalvalue + "€ !";
+    document.querySelector("#estimation").innerHTML = "Jusqu'à " + `<span style='color: red;'> ${globalvalue}<span/>`  + "€";
 
 }
