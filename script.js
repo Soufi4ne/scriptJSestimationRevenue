@@ -12,12 +12,12 @@ console.log(bzh)
 
 
 
-let fonctionRegion = region.onchange() = function(valeurRegion) {
-    valeurRegion=0;
-    if (value=='IleDeFrance') {
+let fonctionRegion = function() {
+    var valeurRegion=0;
+    if (document.getElementById('selectid').value =='IleDeFrance') {
         valeurRegion == 300
     }
-    else if (value == 'corse') {
+    else if (document.getElementById('selectid').value == 'corse') {
         valeurRegion == 250
     } 
     else {
@@ -26,9 +26,9 @@ let fonctionRegion = region.onchange() = function(valeurRegion) {
     console.log(valeurRegion)
 }
 
-let fonctionType = type.onchange() = function (valeurType) {
-    valeurType = 0
-    if (value=="Domicile") {
+let fonctionType  = function () {
+   var valeurType = 0
+    if (document.getElementById('selectionType').value=="Domicile") {
         valeurType == 150
     } else {
         valeurType == 300
@@ -36,20 +36,22 @@ let fonctionType = type.onchange() = function (valeurType) {
     console.log(valeurType)
 }
 
-let fonctionPlace = place.onchange() = function(valeurPlace) {
-    valeurPlace=0;
-    if (value=='1a2') {
+let fonctionPlace = function() {
+   var valeurPlace=0;
+    if (document.getElementById('selectid').value=='1a2') {
         valeurPlace== 50
     }
-    else if (value == '2a4') {
+    else if (document.getElementById('selectid').value == '2a4') {
         valeurPlace == 100  
     } 
     else {
         valeurPlace == 150
     }
-    console.log(valeurRegion)
+    console.log(valeurPlace)
 }
 
 //----------------
 
 
+document.getElementById('estimation').innerHTML = ' Prix Final : ' 
++ " " + valeurPlace + valeurRegion + valeurType; 
