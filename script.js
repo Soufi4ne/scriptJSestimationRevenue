@@ -64,7 +64,7 @@ function fonctionArgent(event) {
   globalvalue = valeurPlace + valeurType + valeurRegion;
   console.log(globalvalue);
 
-  if(valeurPlace != "" && valeurRegion != "" || valeurType != "") {
+  if(valeurPlace != "" && valeurRegion != "" && valeurType != "") {
     document.querySelector("#estimation").innerHTML =
       "Jusqu'à " + `<span style='color: #ec5075;'> ${globalvalue}<span/>` + "€";
   } else {
