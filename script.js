@@ -26,10 +26,39 @@ function fonctionArgent(event) {
       case "Normandie":
         valeurRegion = 150;
         break;
+      case "Auvergne-Rhone-Alpes":
+        valeurRegion = 150;
+        break;
+      case "Bourgogne-Franche-Comté":
+        valeurRegion = 150;
+        break;
+      case "Centre-Val De Loire":
+        valeurRegion = 150;
+        break;
+      case "Grand Est":
+        valeurRegion = 150;
+        break;
+      case "Haut de France":
+        valeurRegion = 150;
+        break;
+      case "Nouvelle Aquitaine":
+        valeurRegion = 150;
+        break;
+      case "Occitanie":
+        valeurRegion = 150;
+        break;
+      case "Pays de la Loire":
+        valeurRegion = 150;
+        break;
+      case "Provence-Alpes-Côte Azure":
+        valeurRegion = 150;
+        break;
+
       default:
         valeurRegion = 0;
     }
   }
+  // A rendre propre plus tard inchaaAllah
 
   if (type === "selectionType") {
     switch (value) {
@@ -64,16 +93,11 @@ function fonctionArgent(event) {
   globalvalue = valeurPlace + valeurType + valeurRegion;
   console.log(globalvalue);
 
-  if(valeurPlace != "" && valeurRegion != "" && valeurType != "") {
+  if (valeurPlace != "" && valeurRegion != "" && valeurType != "") {
     document.querySelector("#estimation").innerHTML =
       "Jusqu'à " + `<span style='color: #ec5075;'> ${globalvalue}<span/>` + "€";
   } else {
-    document.querySelector("#estimation").innerHTML ="Veuillez séléctionner toutes les valeurs"
+    document.querySelector("#estimation").innerHTML =
+      "Veuillez séléctionner toutes les valeurs";
   }
 }
-
-// if (globalvalue >= 350) {
-//     estimation.style.display = 'none'
-// }
-
-// si globalvalue === 0 alors cacher #estimation
