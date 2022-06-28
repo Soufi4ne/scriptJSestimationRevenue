@@ -1,136 +1,146 @@
 {
     "Logement": {
-      "Normandie": {
-        "1a2": 1000,
-        "2a4": 1000,
-        "4Plus": 1000
-      },
-      "IleDeFrance":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000 
-      },
-      "Auvergne-Rhone-Alpes":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Bourgogne-Franche-Comte":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Bretagne":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Corse":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Alsace":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "GrandEst":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Occitanie":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Provence-Alpes-Cote-Azur":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "PaysDeLaLoire":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Hauts-de-France":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Centre-Val-De-Loire":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      }
+        "Normandie": {
+            "1a2": 2100,
+            "2a4": 2380,
+            "4Plus": 2800
+        },
+        "IleDeFrance": {
+            "1a2": 3600,
+            "2a4": 4400,
+            "4Plus": 5500
+        },
+        "AuvergneRhoneAlpes": {
+            "1a2": 3200,
+            "2a4": 4200,
+            "4Plus": 5000
+        },
+        "BourgogneFrancheComte": {
+            "1a2": 3200,
+            "2a4": 3600,
+            "4Plus": 4000
+        },
+        "Bretagne": {
+            "1a2": 3420,
+            "2a4": 3920,
+            "4Plus": 4500
+        },
+        "Corse": {
+            "1a2": 2160,
+            "2a4": 2400,
+            "4Plus": 3000
+        },
+        "Alsace": {
+            "1a2": 2500,
+            "2a4": 3000,
+            "4Plus": 1000
+        },
+        "GrandEst": {
+            "1a2": 3060,
+            "2a4": 3400,
+            "4Plus": 3740
+        },
+        "Occitanie": {
+            "1a2": 2500,
+            "2a4": 3000,
+            "4Plus": 1000
+        },
+        "ProvenceAlpesCoteAzur": {
+            "1a2": 2160,
+            "2a4": 2640,
+            "4Plus": 3000
+        },
+        "PaysDeLaLoire": {
+            "1a2": 2240,
+            "2a4": 2590,
+            "4Plus": 2800
+        },
+        "HautsdeFrance": {
+            "1a2": 2880,
+            "2a4": 3240,
+            "4Plus": 3600
+        },
+        "CentreValDeLoire": {
+            "1a2": 2560,
+            "2a4": 2880,
+            "4Plus": 3200
+        },
+        "NouvelleAquitaine": {
+            "1a2": 1080,
+            "2a4": 2040,
+            "4Plus": 2400
+        }
     },
     "Domicile": {
-      "Normandie": {
-        "1a2": 1000,
-        "2a4": 1000,
-        "4Plus": 1000
-      },
-      "IleDeFrance":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000 
-      },
-      "Auvergne-Rhone-Alpes":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Bourgogne-Franche-Comte":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Bretagne":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Corse":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Alsace":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "GrandEst":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Occitanie":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Provence-Alpes-Cote-Azur":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "PaysDeLaLoire":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Hauts-de-France":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      },
-      "Centre-Val-De-Loire":{
-          "1a2": 2500,
-          "2a4": 3000,
-          "4Plus": 1000
-      }
+        "Normandie": {
+            "1a2": 840,
+            "2a4": 952,
+            "4Plus": 1400
+        },
+        "IleDeFrance": {
+            "1a2": 1440,
+            "2a4": 1760,
+            "4Plus": 2750
+        },
+        "AuvergneRhoneAlpes": {
+            "1a2": 1280,
+            "2a4": 1680,
+            "4Plus": 2500
+        },
+        "BourgogneFrancheComte": {
+            "1a2": 1280,
+            "2a4": 1440,
+            "4Plus": 2000
+        },
+        "Bretagne": {
+            "1a2": 1368,
+            "2a4": 1568,
+            "4Plus": 2250
+        },
+        "Corse": {
+            "1a2": 864,
+            "2a4": 960,
+            "4Plus": 1500
+        },
+        "Alsace": {
+            "1a2": 2500,
+            "2a4": 3000,
+            "4Plus": 1000
+        },
+        "GrandEst": {
+            "1a2": 1224,
+            "2a4": 1360,
+            "4Plus": 1870
+        },
+        "Occitanie": {
+            "1a2": 768,
+            "2a4": 912,
+            "4Plus": 1260
+        },
+        "ProvenceAlpesCoteAzure": {
+            "1a2": 864,
+            "2a4": 1056,
+            "4Plus": 1500
+        },
+        "PaysDeLaLoire": {
+            "1a2": 896,
+            "2a4": 1036,
+            "4Plus": 1400
+        },
+        "HautDeFrance": {
+            "1a2": 1152,
+            "2a4": 1296,
+            "4Plus": 1800
+        },
+        "CentreValDeLoire": {
+            "1a2": 1024,
+            "2a4": 1152,
+            "4Plus": 1600
+        },
+        "NouvelleAquitaine": {
+            "1a2": 432,
+            "2a4": 816,
+            "4Plus": 1200
+        }
     }
-  }
+}
