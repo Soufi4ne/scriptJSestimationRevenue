@@ -1,63 +1,79 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jacuzzilib</title>
+
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="./script.js"></script>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <main>
-        <h3>Estimez la valeur locative <br> de votre jacuzzi😍</h3>
+      <h3>
+        Estimez la valeur locative <br />
+        de votre jacuzzi😍
+      </h3>
 
-        <div class="selection-container">
-            <!-- <label for="region" class="smart-label">Veuillez séléctionner votre région</label> -->
-            <select id="selectionRegion" onchange="fonctionArgent(this)">
-                <option value="">-- Votre région --</option>
-                <option value="IleDeFrance" style="color: black">Ile de France</option>
-                <option value="Bretagne" style="color: black">Bretagne</option>
-                <option value="Normandie" style="color: black">Normandie</option>
-                <option value="Auvergne-Rhone-Alpes" style="color: black">Auvergne-Rhone-Alpes</option>
-                <option value="Bourgogne-Franche-Comté" style="color: black">Bourgogne-Franche-Comté</option>
-                <option value="Centre-Val De Loire" style="color: black">Centre-Val De Loire</option>
-                <option value="Grand Est" style="color: black">Grand Est</option>
-                <option value="Haut de France" style="color: black">Haut de France</option>
-                <option value="Nouvelle Aquitaine" style="color: black">Nouvelle Aquitaine</option>
-                <option value="Occitanie" style="color: black">Occitanie</option>
-                <option value="Pays de la Loire" style="color: black">Pays de la Loire</option>
-                <option value="Provence-Alpes-Côte Azure" style="color: black">Provence-Alpes-Côte Azure</option>
+      <div class="selection-container">
+        <!-- <label for="region" class="smart-label">Veuillez séléctionner votre région</label> -->
+        <select id="selectionRegion" onChange="fonctionArgent(this)">
+          <option selected value="none">-- Votre région --</option>
+          <option value="IleDeFrance" style="color: black">
+            Ile de France
+          </option>
+          <option value="Bretagne" style="color: black">Bretagne</option>
+          <option value="Normandie" style="color: black">Normandie</option>
+          <option value="Auvergne-Rhone-Alpes" style="color: black">
+            Auvergne-Rhone-Alpes
+          </option>
+          <option value="Bourgogne-Franche-Comté" style="color: black">
+            Bourgogne-Franche-Comté
+          </option>
+          <option value="Centre-Val De Loire" style="color: black">
+            Centre-Val De Loire
+          </option>
+          <option value="Grand Est" style="color: black">Grand Est</option>
+          <option value="Haut de France" style="color: black">
+            Haut de France
+          </option>
+          <option value="Nouvelle Aquitaine" style="color: black">
+            Nouvelle Aquitaine
+          </option>
+          <option value="Occitanie" style="color: black">Occitanie</option>
+          <option value="Pays de la Loire" style="color: black">
+            Pays de la Loire
+          </option>
+          <option value="Provence-Alpes-Côte Azure" style="color: black">
+            Provence-Alpes-Côte Azure
+          </option>
+        </select>
 
+        <select id="selectionType" onChange="fonctionArgent(this)">
+          <option selected value="none">-- Type de Jacuzzi --</option>
+          <option value="Domicile" style="color: black">
+            Jacuzzi à domicile
+          </option>
+          <option value="Logement" style="color: black">
+            Logement avec Jacuzzi
+          </option>
+        </select>
 
-            </select>
+        <select id="selectionPlace" onChange="fonctionArgent(this)">
+          <option selected value="none">-- Nombres de place --</option>
+          <option value="1a2" style="color: black">1 à 2 places</option>
+          <option value="2a4" style="color: black">2 à 4 places</option>
+          <option value="4Plus" style="color: black">4 places et +</option>
+        </select>
+      </div>
 
-            <select id="selectionType" onchange="fonctionArgent(this)">
-                <option value="">-- Type de Jacuzzi --</option>
-                <option value="Domicile" style="color: black">Jacuzzi à domicile</option>
-                <option value="Logement" style="color: black">Logement avec Jacuzzi</option>
-            </select>
+      <div class="phrase">
+        <p class="argent">Voici ce que que vous pourrez gagner :</p>
 
-            <select id="selectionPlace" onchange="fonctionArgent(this)">
-                <option value="">-- Nombres de place --</option>
-                <option value="1a2" style="color: black">1 à 2 places</option>
-                <option value="2a4" style="color: black">2 à 4 places</option>
-                <option value="4Plus" style="color: black">4 places et +</option>
-            </select>
-        </div>
-
-
-        <div class="phrase">
-            <p class="argent">Voici ce que que vous pourrez gagner :</p>
-
-            <p id="estimation">Jusqu'à <span class="span-rose">... </span></p>
-        </div>
+        <p id="estimation">Jusqu'à <span class="span-rose">... </span></p>
+      </div>
     </main>
-
-    <script src="script.js" type="module"></script>
-</body>
-
+  </body>
 </html>
