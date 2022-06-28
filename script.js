@@ -1,10 +1,22 @@
-var globalvalue = 0;
-var valeurPlace = 0;
-var valeurRegion = 0;
-var valeurType = 0;
-var value = null;
-var type = null;
+// import data from ".data.json"
+// console.log(data)
+
+import data from './data.json' 
+// const price = data[type][region][place]
+
+let globalvalue = 0;
+let valeurPlace = 0;
+let valeurRegion = 0;
+let valeurType = 0;
+let value = null;
+let type = null;
 let estimation = document.querySelector("#estimation");
+// let IDF = document.querySelector(".IDF")
+const selectionRegion = document.querySelector("#selectionRegion");
+const selectionPlace = document.querySelector("#selectionPlace")
+const selectionType = document.querySelector("#selectionType")
+
+
 
 function fonctionArgent(event) {
   console.log("hello");
@@ -93,11 +105,26 @@ function fonctionArgent(event) {
   globalvalue = valeurPlace + valeurType + valeurRegion;
   console.log(globalvalue);
 
+
+
   if (valeurPlace != "" && valeurRegion != "" && valeurType != "") {
     document.querySelector("#estimation").innerHTML =
       "Jusqu'à " + `<span style='color: #ec5075;'> ${globalvalue}<span/>` + "€";
-  } else {
+  } 
+  else if (selectionRegion == "IleDeFrance") {
+  }
+  else {
     document.querySelector("#estimation").innerHTML =
       "Veuillez séléctionner toutes les valeurs";
   }
+ 
+ 
+
+
+ 
+  // if (selectionRegion == "IleDeFrance" && selectionType == "Logement" && selectionPlace == "1&2") {
+  //   valeurRegion = valeurRegion + 3000;
+  //   document.querySelector("#estimation").innerHTML =
+  //     "Jusqu'à " + `<span style='color: #ec5075;'> ${globalvalue}<span/>` + "€";
+  // }
 }
