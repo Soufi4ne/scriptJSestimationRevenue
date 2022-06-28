@@ -1,20 +1,136 @@
 {
     "Logement": {
-      "normandie": {
+      "Normandie": {
         "1a2": 1000,
         "2a4": 1000,
         "4more": 1000
       },
-      "ileDeFrance":{
+      "IleDeFrance":{
           "1a2": 2500,
-          "2a4": 3000
+          "2a4": 3000,
+          "4more": 1000 
+      },
+      "Auvergne-Rhone-Alpes":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Bourgogne-Franche-Comte":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Bretagne":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Corse":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Alsace":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "GrandEst":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Occitanie":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Provence-Alpes-Cote-Azur":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "PaysDeLaLoire":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Hauts-de-France":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Centre-Val-De-Loire":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
       }
     },
     "Domicile": {
-      "normandie": {
+      "Normandie": {
         "1a2": 1000,
         "2a4": 1000,
         "4more": 1000
+      },
+      "IleDeFrance":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000 
+      },
+      "Auvergne-Rhone-Alpes":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Bourgogne-Franche-Comte":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Bretagne":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Corse":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Alsace":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "GrandEst":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Occitanie":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Provence-Alpes-Cote-Azur":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "PaysDeLaLoire":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Hauts-de-France":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
+      },
+      "Centre-Val-De-Loire":{
+          "1a2": 2500,
+          "2a4": 3000,
+          "4more": 1000
       }
     }
   }
